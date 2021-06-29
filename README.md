@@ -1,4 +1,4 @@
-# Building Nested Hashes Code-Along Part 1
+<!-- # Building Nested Hashes Code-Along Part 1
 
 ## Learning Goals
 
@@ -11,16 +11,16 @@ You're 16 years old and back in high school English class. Luckily for us, our
 teacher is kind of lazy and we get to watch the _Romeo and Juliet_ movie from
 the '90s starring Leonardo DiCaprio and Claire Danes.
 
-![](http://readme-pics.s3.amazonaws.com/RomeoandJuliet5.jpg)
+![](http://readme-pics.s3.amazonaws.com/RomeoandJuliet5.jpg) -->
 
-But there's a Romeo and Juliet quiz our teacher has scheduled for us that we
+<!-- But there's a Romeo and Juliet quiz our teacher has scheduled for us that we
 need to get ready for. We will definitely be required to answer some questions
 on the cast of characters and their attributes and relationships to one another.
 Let's map out that information:
 
-![Montague/Capulet Family Tree](https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/nested-hashes/Image_7_NestedHash.png)
+![Montague/Capulet Family Tree](https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/nested-hashes/Image_7_NestedHash.png) -->
 
-What we have here is a nested data structure. There are different levels or
+<!-- What we have here is a nested data structure. There are different levels or
 tiers of information. On the top tier, we have family names. Beneath that we
 have key characters, and beneath that we have their attributes. We have an
 additional layer of the hero/heroine's friends because there are multiple
@@ -96,15 +96,15 @@ epic_tragedy = {
 
 Remember that the `key: value` syntax is the same as the `:key => value` syntax
 used above. Get ready to see them both used in different applications and
-sources.
+sources. -->
 
-## Instructions
+<!-- ## Instructions
 
 This is a complicated data structure. We're going to build it up one step at a
 time, so for each challenge, a separate file is provided in `lib`. Follow along
 with the walk-through below. When finished, use `learn` and `learn_submit` to
-register completion of this lesson.
-
+register completion of this lesson. -->
+<!-- 
 ### Code Along Challenge I: Family Names
 
 In `lib/first_challenge.rb`, you're going to fill out the content of the
@@ -126,8 +126,8 @@ epic_tragedy = {
 ```
 
 Now it's time to fill out the second level of our hash — the collection of data
-that constitutes the value hashes of each family name key.
-
+that constitutes the value hashes of each family name key. -->
+<!-- 
 ### Code Along Challenge II: Character Roles
 
 In `lib/second_challenge.rb`, you'll find the hash you built in the previous
@@ -176,7 +176,7 @@ Now we're ready to fill out the empty hashes that constitute the values for the
 `:patriarch`, `:matriarch` and `:hero`/`:heroine` keys, nested inside the family
 name keys of our epic `epic_tragedy hash`.
 
-### Code Along Challenge III: Character Attributes
+### Code Along Challenge III: Character Attributes -->
 
 According to the diagram that we saw at the very beginning of this exercise,
 each character has a set of attributes. Matriarch and Patriarchs have a name and
